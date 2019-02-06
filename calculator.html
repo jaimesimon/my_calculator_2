@@ -6,6 +6,7 @@ function cube() {
  num.value = Math.pow(num.value, 3);
 }
 
+
 function square() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 2);
@@ -17,7 +18,11 @@ function inverse() {
 function fourthpower() {
  var num = document.getElementById("n1");
  num.value = Math.pow(num.value, 4);
+}
 
+function sin() {
+ var num = document.getElementById("n1");
+ num.value = Math.sin(num.value);
 }
 </script>
 </head>
@@ -33,6 +38,7 @@ function fourthpower() {
 
  <button onclick="fourthpower()"> x^4 </button>
 
+ <button onclick="sin()"> sin(x) </button>
  </p>
 </body>
 </html>
